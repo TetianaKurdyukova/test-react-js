@@ -1,0 +1,147 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  width: 95%;
+  height: 95%;
+  margin: 0 auto;
+  background: #6c757d;
+  border-radius: 8px;
+  padding: 12px 12px 24px;
+}
+
+.top-panel {
+  width: 100%;
+  height: calc(100% - 150px);
+  border-radius: 8px;
+  background: #fff;
+  margin: 0 0 23px;
+}
+
+.top-panel span {
+  max-width: 100px;
+  width: 100%;
+  display: flex;
+}
+
+.button {
+  transition: all .3s ease-in-out;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 20px 12px;
+  border: 0;
+  width: 200px;
+  background: #6a994e;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background: #4a9d19;
+}
+
+.button.blue {
+  background: #2c7da0;
+  margin-right: 30px;
+}
+
+.button.blue:hover {
+  background: #0576a7;
+}
+
+.bottom-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.buttons {
+  width: 55%;
+  text-align: center;
+}
+
+.counter-block {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  transition: all .3s ease-in-out;
+  width: 58px;
+  height: 58px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: 0;
+  padding: 3px 5px 5px 3px;
+  background: #ff0a54;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #f7072e;
+}
+
+.btn:disabled {
+  pointer-events: none;
+  opacity: .5;
+}
+
+.btn.btn-plus {
+  background: #00a6fb;
+  padding: 7px 4px 5px 5px;
+}
+
+.btn.btn-plus:hover {
+  background: #53c2fb;
+}
+
+.result {
+  width: 100px;
+  height: 48px;
+  background: #fff;
+  border: 5px solid #d9d9d9;
+  border-radius: 8px;
+  margin: 0 12px;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: .5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square {
+  width: 38px;
+  height: 34px;
+  background: #8eecf5;
+  display: none;
+}
+
+.circle {
+  width: 46px;
+  height: 46px;
+  background: #ffa69e;
+  border-radius: 50%;
+  display: none;
+}
